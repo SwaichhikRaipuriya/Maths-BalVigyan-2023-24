@@ -1,0 +1,45 @@
+{ margin: 0;
+  padding: 0;
+  }
+header {
+         background: liner gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%);
+         background-image:url(https://i.pinimg.com/564x/4a/3b/7b/4a3b7b4fc17e24aff6a135530dc07b4e.jpg);
+         height: 100vh;
+         background-size: cover;
+         background-position: center;
+}
+
+ul{ 
+        float: right;
+        list-style-type: none;
+}
+ul li{
+       display: inline-block;
+       padding: 0px 10px;
+}
+ ul li a{
+         text-decoration: none;
+         color: #fff;
+         padding: 10px 25px;
+         border: 1px solid #fff;
+         transition: 0.8s ease;
+}
+
+ul li a:hover{
+        background-color: #fff;
+        color: #000;
+}  
+
+.title{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+}
+ 
+.title h1{
+         color: #fff;
+         font size: 200px;
+}      
+               
+
